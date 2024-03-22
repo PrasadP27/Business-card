@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    transition: 0.4s ease;
+}
+
+body,
+html {
+    background-color: #151515;
+    color: #fff;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    border: 3px solid #fff;
+    overflow: hidden;
+    max-width: 400px;
+    margin: 40px 0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px #656565;
+}
+
+.main .mainImg {
+    width: 100%;
+}
+
+.content {
+    background-color: #242124;
+    padding: 20px;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    top: 0;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.about h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: rgb(112, 213, 253);
+}
+
+.about p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(78, 157, 188);
+}
+
+.about .btn {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .btn a {
+    min-width: 40%;
+    padding: 8px 8%;
+    margin: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.about .btn a:hover {
+    background-color: rgb(90, 182, 219);
+}
+
+.about .btn a img {
+    margin-right: 10px;
+}
+
+.info {
+    margin: 10px;
+}
+
+.info h3 {
+    color: rgb(90, 182, 219);
+    margin: 5px 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.info p {
+    font-size: 0.8rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    margin: 25px 5px 0;
+    background-color: #363636;
+    border-radius: 10px;
+}
+
+ul>li img {
+    height: 25px;
+    margin-top: 10px;
+}
+
+ul>li img:hover {
+    transform: translateY(-5px);
+}
