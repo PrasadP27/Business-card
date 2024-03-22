@@ -5,6 +5,9 @@ A basic business card made with react and css. Here the user can change the imag
 ## Screenshot
 Screen-shot of the business-card 
 
+<img src="https://github.com/PrasadP27/Business-card/assets/157368807/30fb7477-3f2d-4d88-aa82-2ccad2bdaa84"  width="400px" />
+
+
 ## Tech used 
 ```React``` ```CSS```
 
